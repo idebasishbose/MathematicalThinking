@@ -14,7 +14,7 @@ def main():
     for prem in it.permutations(range(8)):
         if is_solution(perm=prem):
             print(prem)
-            exit(0)
+            exit()
 
 
 if __name__ == "__main__":
