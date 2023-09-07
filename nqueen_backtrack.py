@@ -1,6 +1,6 @@
 import typer
 
-from src.timer_decorator import timer
+from timer_decorator import timer
 
 
 def can_extended_to_solution(perm):
